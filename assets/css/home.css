@@ -964,6 +964,10 @@ p{
     font-size: 17.27px;
     line-height: 20.72px;
 }
+.taking-care-photo img{
+    border-radius: 20px;
+}
+
 .messages-text ul{
     margin-top: 16px;
 }
@@ -1061,8 +1065,10 @@ footer:after{
 .footer-picture{
     display: flex;
     position: absolute;
-    right: 68px;
+    right: 48px;
     top: -68px;
+    max-width: 300px;
+    width: 100%;
 }
 
 .network-bnt-mob{
@@ -1787,7 +1793,6 @@ footer:after{
     }
     .taking-care-photo img{
         height: 230px;
-        border-radius: 20px;
     }
     .recommendations .btn{
         display: none;
@@ -1828,7 +1833,7 @@ footer:after{
 
     .interesting-title {
         max-width: 226px;
-        left: 82px;
+        left: 125px;
     }
     .statistics-box small {
         margin-top: 10px;
@@ -1906,7 +1911,31 @@ footer:after{
     .assistant-blocks h3{
         max-width: 100%;
     }
-
+    .pensioners-btn .btn {
+        max-width: 100%;
+    }
+    .neural-network-photo {
+        max-width: 430px;
+    }
+    .statistics-box {
+        width: 100%;
+    }
+    .interesting-btn .btn {
+        max-width: 100%;
+    }
+    .taking-care-photo img {
+        width: 100%;
+    }
 
 }
 
+@media (max-width: 420px){
+    .interesting-title {
+        left: 88px;
+    }
+}
+@media (max-width: 340px){
+    .interesting-title {
+        left: 70px;
+    }
+}
